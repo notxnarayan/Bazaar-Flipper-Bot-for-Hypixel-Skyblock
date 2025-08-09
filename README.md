@@ -7,4 +7,11 @@ The bot uses queues to manage buy and sell orders efficiently, ensuring that no 
 
 With its Tkinter-based interface, you can monitor logs, see actions being taken in real-time, and easily control the bot. It’s optimized for smooth operation on Mac, using safe clipboard handling for item names.
 
-In short: It flips items for you in Hypixel Skyblock’s Bazaar, safely, efficiently, and profitably — with minimal human intervention.
+Requirements:
+- ChatTriggers module is required for this bot to function. This module handles in-game event detection and order completion tracking.
+- The required index file is included in this repository. Place it inside your ChatTriggers modules folder before running the bot.
+
+Disclaimer:
+This project is for personal and educational purposes only. It automates in-game actions and violates Hypixel's Terms of Service. 
+Using this bot on Hypixel can result in a permanent account ban. You are fully responsible for any consequences — use entirely at your own risk.
+
