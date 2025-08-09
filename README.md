@@ -5,7 +5,7 @@ It connects to the Hypixel Bazaar API to fetch real-time prices, identifies the 
 
 The bot uses queues to manage buy and sell orders efficiently, ensuring that no orders are skipped or executed incorrectly. It includes built-in delays and randomization to make mouse and keyboard movements look human-like, reducing detection risk.
 
-With its Tkinter-based interface, you can monitor logs, see actions being taken in real-time, and easily control the bot. It’s optimized for smooth operation on Mac, using safe clipboard handling for item names.
+With its Tkinter-based interface, you can monitor logs, see actions being taken in real-time, making debugging easy. It’s optimized for smooth operation on Mac, using safe clipboard handling for item names.
 
 Requirements:
 - ChatTriggers module is required for this bot to function. This module handles in-game event detection and order completion tracking.
