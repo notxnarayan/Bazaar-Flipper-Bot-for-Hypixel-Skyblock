@@ -1,44 +1,10 @@
 # Bazaar-Flipper-Bot-for-Hypixel-Skyblock
-This is a personal project built to automate Bazaar trading in Hypixel Skyblock. It monitors item prices in real time, detects profitable flipping opportunities, and executes buy/sell orders automatically.
+This project is a fully automated Hypixel Skyblock Bazaar flipping bot designed to find the best profit margins and handle the entire flipping process for you.
 
-Key Features:
+It connects to the Hypixel Bazaar API to fetch real-time prices, identifies the most profitable items to flip, and then automates placing buy orders, waiting for them to fill, and creating sell orders. It also claims coins automatically once trades are completed.
 
+The bot uses queues to manage buy and sell orders efficiently, ensuring that no orders are skipped or executed incorrectly. It includes built-in delays and randomization to make mouse and keyboard movements look human-like, reducing detection risk.
 
-Live Price Tracking – Continuously retrieves item prices using the Hypixel API.
+With its Tkinter-based interface, you can monitor logs, see actions being taken in real-time, and easily control the bot. It’s optimized for smooth operation on Mac, using safe clipboard handling for item names.
 
-Profit Margin Calculation – Identifies items with profitable spreads between buy and sell prices.
-
-Automated Order Execution – Places buy orders, flips them to sell orders when filled, and manages the full trade cycle.
-
-Order Management – Cancels stale orders after a set timeout, prevents duplicate trades, and claims coins from completed sales.
-
-Real-Time Console – Tkinter-based interface displaying current queues, executed actions, and trade status.
-
-AFK Prevention – Periodic in-game interactions to avoid disconnection from inactivity.
-
-Requirements:
-
-
-ChatTriggers Module – Required for detecting order completions and triggering certain in-game actions.
-
-Index File – Included in this repository and must be installed in your ChatTriggers modules folder.
-
-How It Works:
-
-
-Fetches up-to-date Bazaar prices for tracked items.
-
-Selects items meeting profitability criteria.
-
-Places buy orders and monitors their status.
-
-Converts completed buy orders to sell orders.
-
-Cancels orders exceeding the set timeout and claims coins automatically.
-
-Disclaimer:
-
-
-This project is for personal and educational purposes only.
-It automates in-game actions and violates Hypixel’s Terms of Service. Running this bot on Hypixel can result in a permanent account ban.
-Use entirely at your own risk.
+In short: It flips items for you in Hypixel Skyblock’s Bazaar, safely, efficiently, and profitably — with minimal human intervention.
